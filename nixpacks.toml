@@ -1,0 +1,7 @@
+[build]
+  languages = ["python"]
+  build_cmd = "pip install -r requirements.txt"
+
+[start]
+  command = "python app.py"
+
